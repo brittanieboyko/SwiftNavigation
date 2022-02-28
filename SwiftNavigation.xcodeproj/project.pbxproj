@@ -13,6 +13,8 @@
 		BC5B39B927CC75B9000DB3B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B39A727CC75B7000DB3B8 /* ContentView.swift */; };
 		BC5B39BA27CC75B9000DB3B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5B39A827CC75B9000DB3B8 /* Assets.xcassets */; };
 		BC5B39BB27CC75B9000DB3B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5B39A827CC75B9000DB3B8 /* Assets.xcassets */; };
+		BC5B39C827CC77AD000DB3B8 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B39C727CC77AD000DB3B8 /* ItemDetailView.swift */; };
+		BC5B39C927CC77AD000DB3B8 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B39C727CC77AD000DB3B8 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		BC5B39AD27CC75B9000DB3B8 /* SwiftNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5B39B327CC75B9000DB3B8 /* SwiftNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5B39B527CC75B9000DB3B8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BC5B39C727CC77AD000DB3B8 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				BC5B39A627CC75B7000DB3B8 /* SwiftNavigationApp.swift */,
 				BC5B39A727CC75B7000DB3B8 /* ContentView.swift */,
+				BC5B39C727CC77AD000DB3B8 /* ItemDetailView.swift */,
 				BC5B39A827CC75B9000DB3B8 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5B39C827CC77AD000DB3B8 /* ItemDetailView.swift in Sources */,
 				BC5B39B827CC75B9000DB3B8 /* ContentView.swift in Sources */,
 				BC5B39B627CC75B9000DB3B8 /* SwiftNavigationApp.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5B39C927CC77AD000DB3B8 /* ItemDetailView.swift in Sources */,
 				BC5B39B927CC75B9000DB3B8 /* ContentView.swift in Sources */,
 				BC5B39B727CC75B9000DB3B8 /* SwiftNavigationApp.swift in Sources */,
 			);
