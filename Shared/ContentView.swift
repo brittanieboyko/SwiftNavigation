@@ -15,11 +15,12 @@ struct ContentView: View {
                     .font(.title)
                     .padding()
                 Spacer()
-                Button {
-                    print("Button Tapped")
-                } label: {
+                
+                NavigationLink(
+                    destination: ItemDetailView(itemName: "Shrimp Chips"),
+                    label:{
                     Text("Shrimp Chips")
-                }
+                })
                 Spacer()
             }
         }
