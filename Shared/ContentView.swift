@@ -23,6 +23,8 @@ struct ContentView: View {
                 })
                 Spacer()
             }
+            .navigationTitle(Text("Ligaya's Store"))
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
